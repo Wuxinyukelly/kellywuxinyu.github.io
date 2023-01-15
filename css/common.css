@@ -1,0 +1,141 @@
+/*各个页面相同的样式表：网页的头，尾*/
+/*版心*/
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+    
+}
+/*上边框*/
+.shangbiankuang {
+    height: 40px;
+    background-color: rgb(9, 38, 77);
+}
+
+/*头部*/
+.header {
+    margin: 10px auto;
+    height: 70px;
+}
+.logo {
+    float: left;
+    width: 207px;
+    height: 70px;
+}
+
+/*logo搜索引擎优化做法*/
+.logo h1 {
+    width: 207px;
+    height: 70px;
+}
+
+.logo h1 a {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../favicon.ico);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0;
+
+}
+.nav {
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.nav li {
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.nav li a:hover {
+    color: #66aacd;
+    border-bottom: 1px solid #66aacd;
+}
+
+.nav li img {
+    float:right;
+    margin-top: 17px;
+    margin-left: 10px;
+    height: 30px;
+
+}
+
+
+/*版权footer*/
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 1px solid #000;
+}
+
+.footer .top li {
+    position: relative;
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+    
+
+    line-height: 58px;
+}
+
+.footer .top li:last-child {
+    margin-right: 0;
+
+}
+
+/*伪元素添加的标签 行内*/
+/*如果行内块和行内文字无法通过vertical-align或行高对齐，定位*/
+.footer .top li::before {
+    position: absolute;
+    left: 0;
+    top:0;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+}
+
+.footer .top li span {
+    margin-left: 77px;
+    font-size: 28px;
+    color: #fff;
+}
+
+/*第二个li里面的before添加背景图位置属性*/
+.footer .top li:nth-child(2)::before {
+    background-position: -64px 0;
+}
+
+.footer .bottom {
+    text-align: center;
+    padding-top: 40px;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer .bottom a{
+    color: #999;
+    font-size: 14px;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}
+
+

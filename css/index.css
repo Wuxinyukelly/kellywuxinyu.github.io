@@ -1,0 +1,226 @@
+/*index页面的样式*/
+/*banner*/
+.banner {
+    margin-top: 30px;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+}
+/*侧导航*/
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 550px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.banner .aside li {
+    
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner .aside a {
+    position: relative;
+    padding-left: 36px;
+    padding-right: 19px;
+    display: block;
+    height: 50px;
+    color: #fff; 
+    
+}
+
+.banner .aside a span {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.banner .aside a:hover {
+    background-color:rgb(127, 190, 232);
+}
+
+/*yjh czy*/
+
+
+.yjh .hd,
+.czy .hd {
+    margin-top: 50px;
+    height: 96px;
+    line-height: 90px;
+}
+
+.czy .hd {
+    margin-top:0px;
+}
+
+.yjh .hd h2,
+.czy .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.yjh .hd h2 span,
+.czy .hd h2 span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.yjh .hd a,
+.czy .hd a {
+    float: right;
+    color: #999;
+}
+
+.yjh .hd a::after,
+.czy .hd a::after {
+    content: '';
+    display:inline-block;
+    margin-left: 13px;
+    vertical-align: middle;
+    width: 7px;
+    height: 13px;
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+
+.yjh .bd li,
+.czy .bd li {
+    position: relative;
+    float: left;
+    margin-right: 9px;
+    
+    width: 255px;
+    height: 350px;
+    
+    text-align: center;
+
+}
+.yjh .bd li:nth-child(4n),
+.czy .hd li:nth-child(4n) {
+    margin-right:0;
+}
+.yjh .bd li:last-child,
+.czy .bd li:last-child {
+    margin-right:0;
+}
+
+
+.yjh .bd li img,
+.czy .bd li img {
+    width: 255px;
+    
+}
+
+.yjh .bd li h3,
+.czy .bd li h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.yjh .bd li div,
+.czy .bd li div  {
+    color:crimson;
+    font-size: 17px;
+}
+
+.yjh .bd li b,
+.czy .bd li b {
+    position: absolute;
+    left: 6px;
+    top: -4px;
+    width: 28px;
+    height: 51px;
+    border: 3px solid #27ba9b;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #227966;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+
+/*copyright*/
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 1px solid #000;
+}
+
+.footer .top li {
+    position: relative;
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+    
+
+    line-height: 58px;
+}
+
+.footer .top li:last-child {
+    margin-right: 0;
+
+}
+
+.footer .top li::before {
+    position: absolute;
+    left: 0;
+    top:0;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+}
+
+.footer .top li span {
+    margin-left: 77px;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.footer .top li:nth-child(2)::before {
+    background-position: -64px 0;
+}
+
+.footer .bottom {
+    text-align: center;
+    padding-top: 40px;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer .bottom a{
+    color: #999;
+    font-size: 14px;
+}
+
+.footer .bottom p {
+    margin-bottom: 20px;
+}
+
+
+
+
